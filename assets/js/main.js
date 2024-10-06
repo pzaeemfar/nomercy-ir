@@ -5,7 +5,7 @@ async function loadMedia() {
   const gist = await response.json();
   const links = getLinksFromGist(gist);
 
-  const mediaGrid = document.getElementById("gallery");
+  const mediaGrid = document.querySelector(".gallery");
   links.forEach((link) => addMediaToGrid(mediaGrid, link));
 }
 
