@@ -5,13 +5,12 @@
 
 body {
   color: white;
+  background-color: #0c0c0c;
   font-family: "B Nazanin";
 }
 .site-header {
   padding: 5px;
   text-align: center;
-  color: black;
-  font-weight: bold;
 }
 
 .gallery {
