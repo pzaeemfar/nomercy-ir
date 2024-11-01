@@ -1,6 +1,6 @@
 async function loadMedia() {
   const gistUrl =
-    "https://api.github.com/gists/7ea01c8c359712d0a38aeebdadffad3c";
+    "https://api.github.com/gists/16c59c223ea5a1efdcbbd3fe9a57fbef";
   const response = await fetch(gistUrl);
   const gist = await response.json();
   const links = getLinksFromGist(gist);
