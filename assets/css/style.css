@@ -1,41 +1,40 @@
 @font-face {
-    font-family: 'B Nazanin';
-    src: url('../fonts/b-nazanin.ttf');
+  font-family: "B Nazanin";
+  src: url("../fonts/b-nazanin.ttf");
 }
 
 body {
-    background-color: #181a1b;
-    color: white;
-    font-family: 'B Nazanin';
+  color: white;
+  font-family: "B Nazanin";
 }
 .site-header {
-    padding: 5px;
-    text-align: center;
+  padding: 5px;
+  text-align: center;
 }
 
 .gallery {
-    column-count: 2;                            
-    column-gap: 8px;                            
-    padding: 0;                                 
+  column-count: 2;
+  column-gap: 8px;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
-    .gallery {
-        column-count: 3;                       
-    }
+  .gallery {
+    column-count: 3;
+  }
 }
 
 @media (min-width: 1024px) {
-    .gallery {
-        column-count: 4;                       
-    }
+  .gallery {
+    column-count: 4;
+  }
 }
 
 .gallery img {
-    width: 100%;                               
-    margin-bottom: 8px;                        
-    break-inside: avoid;                       
-    border-radius: 0;                          
-    object-fit: cover;                         
-    display: block;                            
+  width: 100%;
+  margin-bottom: 8px;
+  break-inside: avoid;
+  border-radius: 0;
+  object-fit: cover;
+  display: block;
 }
