@@ -4,6 +4,7 @@ const urls = [
   "https://soundcloud.com/bahramnouraei/lams",
   "https://soundcloud.com/emad-tajick/beshno",
   "https://soundcloud.com/divarrecords/majnoun",
+  "https://soundcloud.com/user-172375438/ali-sorena-bezan-haroomi",
 ];
 
 const tracks = document.querySelector("#tracks");
