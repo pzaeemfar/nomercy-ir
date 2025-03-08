@@ -2,6 +2,7 @@ const urls = [
   "https://soundcloud.com/bahramnouraei/khoob",
   "https://soundcloud.com/alisorena/badhaye-vahshi-by-farshad",
   "https://soundcloud.com/bahramnouraei/lams",
+  "https://soundcloud.com/emad-tajick/beshno",
 ];
 
 const tracks = document.querySelector("#tracks");
