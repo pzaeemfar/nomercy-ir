@@ -3,6 +3,7 @@ const urls = [
   "https://soundcloud.com/alisorena/badhaye-vahshi-by-farshad",
   "https://soundcloud.com/bahramnouraei/lams",
   "https://soundcloud.com/emad-tajick/beshno",
+  "https://soundcloud.com/divarrecords/majnoun",
 ];
 
 const tracks = document.querySelector("#tracks");
