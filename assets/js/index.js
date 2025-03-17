@@ -21,7 +21,7 @@ urls.forEach((url) => {
 
 const footerHeading = document.querySelector(".footer-heading");
 
-const DATE = new Date("2025-02-15");
+const DATE = new Date("2025-03-17");
 const currentDate = new Date();
 const timeDifference = currentDate - DATE;
 const daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
